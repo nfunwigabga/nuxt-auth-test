@@ -9,7 +9,7 @@ async function login() {
   try {
     await $auth.loginWith("local", {
       body: {
-        email: "fgneba@gmail.com",
+        email: "john@email.com",
         password: "password",
       },
     });
